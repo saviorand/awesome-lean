@@ -61,6 +61,7 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [Lean (meta-)programming Cookbook](https://leanprover-cookbook.github.io/lean-metaprogramming-recipes/) - Recipes for common programming and metaprogramming tasks.
 - [Tactic Programming Guide](https://github.com/mirefek/lean-tactic-programming-guide) - Beginner's guide to writing tactics.
 - [Lean Symbol Reference](https://quartztz.github.io/lean-symb) - Searchable list of Unicode symbols and their input abbreviations.
+- [Lean Snippets](https://github.com/palladin/lean-snippets) - Functional programming patterns in Lean 4, from lazy evaluation and continuations to category-theory-inspired techniques.
 
 **Programming Languages & Verification**
 - [Software Foundations in Lean](https://github.com/plclub/sf-in-lean) - The Software Foundations textbooks, being translated from Rocq to Lean.
@@ -88,6 +89,7 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [lean4_jupyter](https://github.com/utensil/lean4_jupyter) - Jupyter kernel for Lean 4 using the REPL.
 - [ProofWidgets4](https://github.com/leanprover-community/ProofWidgets4) - Build custom interactive UI widgets (React) for the infoview.
 - [bubble](https://github.com/kim-em/bubble) - Open Lean projects and PRs in sandboxed VS Code containers so untrusted code can't touch your machine.
+- [Paperproof](https://github.com/Paper-Proof/paperproof) - Infoview that shows proofs as pen-and-paper-style trees.
 
 ## Build, Packaging & CI
 
@@ -139,6 +141,7 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [Comparator](https://github.com/leanprover/comparator) - Checks that a solution proves exactly the stated challenge theorem, using only allowed axioms.
 - [Lean Kernel Arena](https://arena.lean-lang.org/) - Test suite and leaderboard for independent Lean kernel implementations ([source](https://github.com/leanprover/lean-kernel-arena)).
 - [SafeVerify](https://github.com/GasStationManager/SafeVerify) - Robustly checks submitted proofs and implementations against a reference.
+- [axiom-audit](https://github.com/leanprover-community/axiom-audit) - Axiom allowlist check that fails CI on `sorry`, `native_decide` or custom axioms.
 
 ## Testing
 
@@ -242,6 +245,8 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [leancrypto](https://github.com/paulbutcher/leancrypto) - SHA-256, HMAC-SHA256, RSA verification, codecs and DER.
 - [lean-crypto](https://github.com/joehendrix/lean-crypto) - Cryptographic routines.
 - [lean-jose](https://github.com/paulbutcher/lean-jose) - JSON Web Signature, JSON Web Key and JSON Web Token in pure Lean.
+- [jose-libcrypto](https://github.com/paulbutcher/jose-libcrypto) - OpenSSL backend for lean-jose that adds ECDSA, EdDSA and asymmetric signing.
+- [lean-libcrypto](https://github.com/paulbutcher/lean-libcrypto) - Bindings to OpenSSL 3's libcrypto through its generic EVP interfaces.
 - [Blake3](https://github.com/argumentcomputer/BLAKE3) - Bindings to the BLAKE3 hash function (see also [Blake3Lean4](https://github.com/BuildCoherence/Blake3Lean4), a pure Lean implementation).
 - [OpenSSL.lean](https://github.com/argumentcomputer/OpenSSL.lean) - OpenSSL bindings.
 - [lean-cryptolib](https://github.com/atrieu/lean-cryptolib) - Verified Montgomery and Barrett modular reduction.
@@ -272,6 +277,7 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [lean-reducers](https://github.com/palladin/lean-reducers) - Parallel, fused reducers.
 - [EffSpec](https://github.com/Izzimach/EffSpec-lean) - Effect monads with specifications (Dijkstra monads).
 - [lentil](https://github.com/pb64-lean/lentil) - Compile-time dependency injection.
+- [lean-cloud](https://github.com/palladin/lean-cloud) - Parallel and distributed programming with monadic workflows over shared blob storage.
 
 ### Graphics, GUI & Games
 
@@ -286,6 +292,7 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [LeanPlot](https://github.com/alok/LeanPlot) - Plotting with deterministic SVG and PNG backends.
 - [vizagrams](https://github.com/arademaker/vizagrams) - Visualization library.
 - [LeanReact](https://github.com/theoriclabs/lean-react) - Write React components in Lean that compile to JavaScript (experimental).
+- [lean4-godot](https://github.com/kiranandcode/lean4-godot) - Experimental bindings to the Godot 4 game engine.
 
 ### Mobile
 
@@ -323,6 +330,7 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [Nerodia](https://github.com/leanprover/nerodia) - Write Python modules in pure Lean, inspired by PyO3 (preview, Lean FRO).
 - [lean.py](https://github.com/BasisResearch/lean.py) - Two-way Lean/Python interop with automatic marshalling.
 - [Extism Lean SDK](https://github.com/extism/lean4-sdk) - Call WebAssembly plugins from Lean.
+- [lean-bindgen](https://github.com/kiranandcode/lean-bindgen) - Generates `@[extern]` declarations and C shims from a concise spec of a C header.
 
 ### Hardware & Embedded
 
@@ -342,6 +350,8 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [leanses](https://github.com/VCA-EPFL/leanses) - Lenses with custom notation.
 - [lean-subst](https://github.com/amarmaduke/lean-subst) - Substitution library inspired by Autosubst.
 - [HexLuthor](https://github.com/alok/HexLuthor) - Hex color literal syntax with inline VS Code preview.
+- [Imperia](https://github.com/tydeu/imperia) - Alternative `do` notation for imperative code over non-monadic types (experimental).
+- [LeanBitsyntax](https://github.com/palladin/lean-bitsyntax) - Erlang-style `<<...>>` bit syntax for building and matching `BitVec` values (experimental).
 
 ## Automation, Solvers & Tactics
 
@@ -365,6 +375,10 @@ Tactics and solver integrations that are useful when proving properties of progr
 - [CLeanGo](https://github.com/kiranandcode/cleango) - Bindings and DSL for the Clingo answer set programming solver.
 - [waterfall](https://github.com/samth/waterfall) - ACL2-style proof search for inductive goals.
 - [sos](https://github.com/leanprover/sos) - Sum-of-squares tactic for nonlinear real arithmetic.
+- [SmtLibDsl](https://github.com/palladin/SmtLibDsl) - Typed SMT-LIB DSL with backends for Z3, cvc5, Kissat and CaDiCaL.
+- [cpsat](https://github.com/paulbutcher/leancpsat) - Bindings to the OR-Tools CP-SAT constraint solver.
+- [deriving such that](https://github.com/kiranandcode/deriving-such-that) - Port of Rocq's program derivation tactic.
+- [BetterFind](https://github.com/kiranandcode/BetterFind.lean) - Extended `#find` for searching declarations by pattern, closer to Rocq's `Search`.
 
 ## Program Verification
 
@@ -443,6 +457,9 @@ Tactics and solver integrations that are useful when proving properties of progr
 - [qdt](https://github.com/intgrah/qdt) - Query-based dependent type elaborator.
 - [DeBruijnSSA](https://github.com/imbrem/debruijn-ssa) - Formalization of SSA.
 - [verified-compiler](https://github.com/marcusrossel/verified-compiler) - Toy verified compiler.
+- [Lyre](https://github.com/tydeu/lyre) - Write Lean IR as Lean syntax.
+- [LRT](https://github.com/tydeu/lrt) - Model of Lean's runtime primitives in Lean, partly porting the C runtime (work in progress).
+- [LeanPy](https://github.com/tydeu/leanpy) - Experimental implementation of Python in Lean.
 
 ## AI & Agent Tooling
 
@@ -453,12 +470,15 @@ Tactics and solver integrations that are useful when proving properties of progr
 - [LeanTool](https://github.com/GasStationManager/LeanTool) - "Code interpreter" for Lean that LLMs can call.
 - [AXLE](https://axle.axiommath.ai) - Axiom's Lean engine for proof verification, manipulation and runtime tasks ([MCP](https://github.com/Vilin97/axle-mcp)).
 - [Archon Horizon](https://github.com/frenzymath/Archon-Horizon) - Workspace-first orchestration for long-running Codex or Claude Code sessions on Lean.
+- [Archon](https://github.com/frenzymath/Archon) - Multi-agent coding and proving workflows over a Lean project, driven by blueprint DAGs.
+- [Lean skills](https://github.com/leanprover/skills) - Official agent skills for proofs, toolchain setup, bisection and more.
 - [LeanSlop](https://github.com/kiranandcode/leanslop) - Call LLMs from inside Lean code as black-box automation.
 - [Aristotle](https://aristotle.harmonic.fun/) - Harmonic's formal reasoning agent, available via web, CLI and API.
 
 **Programmatic Access to Lean**
 - [REPL](https://github.com/leanprover-community/repl) - JSON REPL that reports errors, sorries and proof states.
 - [Pantograph](https://github.com/leanprover/Pantograph) - Machine-to-machine interaction interface for Lean 4.
+- [PyPantograph](https://github.com/stanford-centaur/PyPantograph) - Python interface to Pantograph.
 - [leanclient](https://github.com/oOo0oOo/leanclient) - Drive Lean from Python via the LSP.
 - [Kimina Lean Server](https://github.com/project-numina/kimina-lean-server) - Fast, scalable server for checking Lean code in batches.
 - [LeanDojo](https://github.com/lean-dojo/LeanDojo) - Extract data from and interact with Lean repositories programmatically.
