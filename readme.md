@@ -526,6 +526,7 @@ Tactics and solver integrations that are useful when proving properties of progr
 
 - [Lean Zulip](https://leanprover.zulipchat.com/) - Main community chat; see the `#Project announcements`, `#Program verification` and `#lean4` channels.
 - [Lean Community website](https://leanprover-community.github.io/) - Community resources, installation guides and documentation overview.
+- [Leangineer Discord](https://discord.gg/ACKNs7ZJPj) - Chat for software engineers building with Lean, alongside [leangineer.com](https://leangineer.com).
 - [Lean FRO](https://lean-lang.org/fro/) - The Focused Research Organization developing Lean, including [roadmaps](https://lean-lang.org/fro/roadmap/).
 - [Awesome Logic Formalization](https://github.com/FormalizedFormalLogic/awesome-logic-formalization) - Related list about formalized logic.
 
