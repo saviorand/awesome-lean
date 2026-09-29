@@ -250,7 +250,11 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [Blake3](https://github.com/argumentcomputer/BLAKE3) - Bindings to the BLAKE3 hash function (see also [Blake3Lean4](https://github.com/BuildCoherence/Blake3Lean4), a pure Lean implementation).
 - [OpenSSL.lean](https://github.com/argumentcomputer/OpenSSL.lean) - OpenSSL bindings.
 - [lean-cryptolib](https://github.com/atrieu/lean-cryptolib) - Verified Montgomery and Barrett modular reduction.
-- [lean-zip](https://github.com/kim-em/lean-zip) - Compression library ([blog post: "Why Lean is faster than Rust"](https://kim-em.github.io/blog/2026-7-24-why-lean-is-faster-than-rust/)).
+- [lean-zip](https://github.com/kim-em/lean-zip) - Pure-Lean DEFLATE and zlib with a kernel-checked proof that decompression inverts compression ([blog post: "Why Lean is faster than Rust"](https://kim-em.github.io/blog/2026-7-24-why-lean-is-faster-than-rust/)).
+- [lean-zlib](https://github.com/kim-em/lean-zlib) - Bindings to system zlib for zlib, gzip and raw DEFLATE streams, plus CRC-32 and Adler-32.
+- [lean-zstd](https://github.com/kim-em/lean-zstd) - Zstandard decompression, via C bindings or a pure-Lean implementation with proofs.
+- [lean-archive](https://github.com/kim-em/lean-archive) - Tar and ZIP archives, hardened against hostile input.
+- [lean-brotli](https://github.com/JGalego/lean-brotli) - Brotli bindings with whole-buffer and streaming APIs.
 - [LeanHuffmanCoding](https://github.com/AnirudhG07/LeanHuffmanCoding) - Huffman coding with correctness proofs.
 - [LeanBWT-Bzip2](https://github.com/AnirudhG07/LeanBWT-Bzip2) - bzip2 via the Burrows-Wheeler transform, in pure Lean with proofs.
 
