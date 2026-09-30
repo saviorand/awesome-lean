@@ -201,6 +201,7 @@ Core projects maintained by the Lean FRO and the Lean community.
 **Servers & Frameworks**
 - [LeanIO](https://github.com/ecyrbe/leanio) - HTTP router for `Std.Http` with compile-time checked routes, JSON handling and middleware.
 - [LeanTEA](https://github.com/Verilean/lean-tea) - Full-stack web and TUI framework based on The Elm Architecture.
+- [Qed](https://github.com/JacobAsmuth/qed) - Frontend framework with JSX-style components, typed events and state invariants proved at compile time.
 - [lean-html](https://github.com/paulbutcher/lean-html) - Typed HTML5 ([lean-htmx](https://github.com/paulbutcher/lean-htmx) adds typed `hx-*` attributes).
 - [lean-routing](https://github.com/paulbutcher/lean-routing) - Typed router and route table.
 - [lean-middleware](https://github.com/paulbutcher/lean-middleware) - Sessions, sealed cookie store, anti-forgery, static files and request tracing.
@@ -294,6 +295,7 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [lean-wgpu](https://github.com/Kiiyya/lean-wgpu) - WebGPU bindings via wgpu-native.
 - [Hesper](https://github.com/Verilean/hesper) - Verified GPU programming with type-safe WebGPU shaders.
 - [LeanPlot](https://github.com/alok/LeanPlot) - Plotting with deterministic SVG and PNG backends.
+- [Illuminate](https://github.com/leanprover/illuminate) - Compositional 2D diagrams rendered to SVG, with previews in the infoview (experimental).
 - [vizagrams](https://github.com/arademaker/vizagrams) - Visualization library.
 - [LeanReact](https://github.com/theoriclabs/lean-react) - Write React components in Lean that compile to JavaScript (experimental).
 - [lean4-godot](https://github.com/kiranandcode/lean4-godot) - Experimental bindings to the Godot 4 game engine.
@@ -450,7 +452,7 @@ Tactics and solver integrations that are useful when proving properties of progr
 - [thales](https://github.com/jessealama/thales) - TypeScript compiler and JavaScript engine in Lean.
 - [leanexe](https://github.com/jsmorph/leanexe) - Compiler for a Lean dialect that targets verified WebAssembly.
 - [lean2wasm](https://github.com/T-Brick/lean2wasm) - Compile Lean to WebAssembly.
-- [lean-vir](https://github.com/ejgallego/lean-vir) - Proof of concept compiling Lean IR to wasm32-wasi.
+- [lean-vir](https://github.com/ejgallego/lean-vir) - Runs Lean in the browser via Lean's IR interpreter compiled to WebAssembly, with a runtime under 200 KiB (early, Lean FRO).
 - [lean-gccjit](https://github.com/SchrodingerZhu/lean-gccjit) - Bindings to libgccjit, a basis for alternative backends.
 - [QED64](https://github.com/FawadHa1der/QED64) - Lean and Mathlib running in the browser via wasm64.
 - [yatima](https://github.com/argumentcomputer/yatima) - Zero-knowledge Lean 4 compiler and kernel.
