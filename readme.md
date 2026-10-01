@@ -1,4 +1,4 @@
-# Awesome Lean [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Lean Programming [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > Dependently typed functional programming language and interactive theorem prover.
 
