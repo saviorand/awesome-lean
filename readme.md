@@ -207,7 +207,7 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [lean-middleware](https://github.com/paulbutcher/lean-middleware) - Sessions, sealed cookie store, anti-forgery, static files and request tracing.
 - [lean-forms](https://github.com/paulbutcher/lean-forms) - Web forms library.
 - [lean-authentication](https://github.com/paulbutcher/lean-authentication) - Magic-link authentication, sessions and rate limiting.
-- [datastar-lean](https://github.com/saviorand/datastar-lean) - Datastar SDK for Lean.
+- [datastar-lean](https://github.com/carlohamalainen/datastar-lean) - Datastar SDK for real-time hypermedia apps over server-sent events, with optional compression.
 - [LeanRPC](https://github.com/oOo0oOo/LeanRPC) - Expose Lean functions as JSON-RPC endpoints over HTTP with `@[rpc]`.
 - [lithe](https://github.com/JoshuaPurtell/lithe) - Simple web service framework.
 
