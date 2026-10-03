@@ -210,15 +210,18 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [datastar-lean](https://github.com/carlohamalainen/datastar-lean) - Datastar SDK for real-time hypermedia apps over server-sent events, with optional compression.
 - [LeanRPC](https://github.com/oOo0oOo/LeanRPC) - Expose Lean functions as JSON-RPC endpoints over HTTP with `@[rpc]`.
 - [lithe](https://github.com/JoshuaPurtell/lithe) - Simple web service framework.
+- [LeanAPI](https://github.com/theoriclabs/leanapi) - API server in the style of Express and FastAPI, with typed routing, field-level validation errors, middleware and auth (experimental).
 
 **Protocols & Clients**
 - [socket.lean](https://github.com/hargoniX/socket.lean) - BSD socket bindings.
 - [http2-lean](https://github.com/pb64-lean/http2-lean) - HTTP/2 protocol foundation and managed transports.
 - [ws-lean](https://github.com/pb64-lean/ws-lean) - WebSocket protocol and networking library.
+- [LeanWs](https://github.com/theoriclabs/leanws) - WebSocket library (RFC 6455) in pure Lean over `Std.Http.Transport`, with a server and a client.
 - [tls13-lean](https://github.com/pb64-lean/tls13-lean) - TLS 1.3 client and server built on HACL* verified crypto primitives.
 - [grpc-lean](https://github.com/pb64-lean/grpc-lean) - Protobuf code generation and a gRPC client/server runtime.
 - [lean-grpc](https://github.com/RileyBetts/lean-grpc) - Pure Lean gRPC stack (HTTP/2, HPACK, gRPC).
 - [leancurl](https://github.com/paulbutcher/leancurl) - libcurl bindings (see also [leanCurl](https://github.com/bergmannjg/leanCurl)).
+- [LeanHttp](https://github.com/theoriclabs/leanhttp) - HTTP and WebSocket client in `Std.Http`'s own types, backed by libcurl (TLS, redirects, HTTP/2).
 - [lean-llmclient](https://github.com/paulbutcher/lean-llmclient) - Provider-agnostic LLM chat client with tool calling.
 - [lean-mcp](https://github.com/paulbutcher/lean-mcp) - Model Context Protocol server library for writing MCP servers in Lean.
 
@@ -236,6 +239,7 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [pg-lean](https://github.com/pb64-lean/pg-lean) - PostgreSQL client with a pure Lean wire protocol, SCRAM, TLS, COPY and pipelining.
 - [lean-pgx](https://github.com/pb64-lean/lean-pgx) - Checked Lean types and query runners generated from PostgreSQL DDL and SQL.
 - [lean-linq](https://github.com/palladin/lean-linq) - Type-safe LINQ-style SQL query DSL that compiles to parameterized SQL.
+- [LeanDB](https://github.com/theoriclabs/LeanDB) - Strongly typed SQL over SQLite: the compiler checks query inputs and result types, and schema changes produce migration plans.
 - [LeanMySQL](https://github.com/arthurpaulino/LeanMySQL) - MySQL API.
 - [lean-redis](https://github.com/ecyrbe/lean-redis) - Async Redis client written in pure Lean on the `Std` TCP stack.
 - [redisLean](https://github.com/marcellop71/redis-lean) - Bindings to the hiredis Redis client.
@@ -327,6 +331,7 @@ Core projects maintained by the Lean FRO and the Lean community.
 - [lean4-mlir](https://github.com/brettkoonce/lean4-mlir) - Neural architectures specified in Lean, with verified GPU codegen.
 - [ginac-lean](https://github.com/utensil/ginac-lean) - GiNaC computer algebra bindings.
 - [LeanSage](https://github.com/oOo0oOo/LeanSage) - Call SageMath from Lean.
+- [Tgrad](https://github.com/theoriclabs/t-grad) - Demo bf16 matrix-multiply runtime on Apple Silicon Metal, owned by Lean and driven from Python.
 
 ### FFI & Language Interop
 
@@ -523,6 +528,7 @@ Tactics and solver integrations that are useful when proving properties of progr
 - [lean-snakebird](https://github.com/marcusrossel/lean-snakebird) - Snakebird implementation.
 - [Functorio](https://github.com/konne88/functorio) - Build Factorio factories in Lean with types, functions and recursion.
 - [lean4game](https://github.com/leanprover-community/lean4game) - Engine and server for interactive Lean games ([live](https://adam.math.hhu.de)).
+- [LeanChess](https://github.com/theoriclabs/leanchess) - Chess server where the rules are a Lean program and each game is a fold over its move log ([live](https://leanchess.org)).
 
 ## Community
 
