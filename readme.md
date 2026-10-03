@@ -247,7 +247,8 @@ Core projects maintained by the Lean FRO and the Lean community.
 
 ### Cryptography & Compression
 
-- [leancrypto](https://github.com/paulbutcher/leancrypto) - SHA-256, HMAC-SHA256, RSA verification, codecs and DER.
+- [leancrypto](https://github.com/paulbutcher/leancrypto) - Pure-Lean SHA-2, HMAC, RSA signature verification, DER and encodings, with proofs that the encodings round-trip.
+- [leancrypto (Theoric)](https://github.com/theoriclabs/leancrypto) - OpenSSL-backed SHA-256, HMAC, secure random bytes and scrypt password hashing with a ready hash/verify API.
 - [lean-crypto](https://github.com/joehendrix/lean-crypto) - Cryptographic routines.
 - [lean-jose](https://github.com/paulbutcher/lean-jose) - JSON Web Signature, JSON Web Key and JSON Web Token in pure Lean.
 - [jose-libcrypto](https://github.com/paulbutcher/jose-libcrypto) - OpenSSL backend for lean-jose that adds ECDSA, EdDSA and asymmetric signing.
